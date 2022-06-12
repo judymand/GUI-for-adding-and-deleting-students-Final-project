@@ -1,0 +1,4 @@
+([('main',
+   '/Users/judy/Desktop/תואר/פרוייקט '
+   'גמר/User-interface-for-adding-and-deleting-students-Final-project/dist/main',
+   'EXECUTABLE')],)
