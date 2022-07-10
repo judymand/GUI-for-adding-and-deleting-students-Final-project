@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>i have eyes in my back</string>
+	<string>I have eyes in my back</string>
 	<key>CFBundleExecutable</key>
-	<string>i have eyes in my back</string>
+	<string>I have eyes in my back</string>
 	<key>CFBundleIconFile</key>
-	<string>icon.icns</string>
+	<string>generated-1643646ba8e1fa40a0fc221b05e66d050d56bc7b383e2b8b7d306bda5915b6e3.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>i have eyes in my back</string>
+	<string>I have eyes in my back</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>i have eyes in my back</string>
+	<string>I have eyes in my back</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

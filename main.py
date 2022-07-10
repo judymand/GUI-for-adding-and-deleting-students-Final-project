@@ -23,9 +23,12 @@ def remove_folder_of_student(name):
 def check_correctly_data(name, phone):
     pattern = re.compile("^[\dA-Z]{3}-[\dA-Z]{7}$", re.IGNORECASE)
     valid_string = True
-    for character in name:
-        if(character.isdigit()):
-            valid_string = False
+    if(name == ""):
+        valid_string = False
+    else:
+        for character in name:
+            if(character.isdigit()):
+                valid_string = False
     return (pattern.match(phone) is not None) and valid_string
 
 
@@ -109,12 +112,12 @@ while True:
         window['title2'].Update(visible=False)
         window['add_student_button'].hide_row()
         window['delete_student_button'].hide_row()
-        window['back_button_from_delete_student'].Update(visible=True)
-        window['confirmation_delete_students'].Update(visible=True)
-        window['confirmation_delete_students'].unhide_row()
         window['student_list'].Update(visible=True)
         window['student_list'].unhide_row()
         window['student_list'].Update(server.get_all_students_list())
+        window['back_button_from_delete_student'].Update(visible=True)
+        window['confirmation_delete_students'].Update(visible=True)
+        window['confirmation_delete_students'].unhide_row()
 
     if event == 'back_button_from_add_student':
         window['title1'].Update("שלום לך, הגעת למערכת ")

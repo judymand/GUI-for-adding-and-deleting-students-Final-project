@@ -45,6 +45,7 @@ def get_all_students_list():
     if(record):
         for rec in record['students']:
             students_list.append(rec['name'])
+    students_list.sort()
     return students_list
 
 
